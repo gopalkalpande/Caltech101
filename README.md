@@ -2,12 +2,10 @@
 
 Link to dataset: http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 
-I have used this dataset to perform image classification task and acheieved the accuracy of 79.34% with least diversion in train accuracy and validation accuracy; i.e the model is not overfitting. Data augumentation helped me to acheiece least diversion in train accuracy and validation accuracy.
+I have used this dataset to perform image classification task. 
 
-Training and validation accuracy plot:
+## I used Transfer Learning for solving the problem.The used architecture was VGG16. It acheieved the accuracy of 79.34% with least diversion in train accuracy and validation accuracy; i.e the model is not overfitting. Data augmentation helped me to acheiece least diversion in train accuracy and validation accuracy.
 
-![](https://github.com/gopalkalpande/Caltech101/blob/master/Images/accuracy.png)
 
-Training and validation loss plot:
+## Again I used InceptionV3 architecture and boom the accuracy on unseen data reached to 90.39%; but when I used data augmentation it dropped to 88.49%.
 
-![](https://github.com/gopalkalpande/Caltech101/blob/master/Images/loss.png)
